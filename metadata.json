@@ -1,0 +1,6 @@
+{
+  "name": "CareerAI Hub",
+  "description": "An intelligent career and interview platform for modern recruitment and placement management.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": []
+}

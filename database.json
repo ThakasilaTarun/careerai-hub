@@ -1,0 +1,652 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "name": "Placement Officer",
+      "email": "admin@crpms.edu",
+      "password": "$2b$10$v71G6H9VPkMKF5DOjIq9v.k/nJrhrEO72QPrVfRbkpsCcLE2BiOrO"
+    }
+  ],
+  "students": [
+    {
+      "id": "s1",
+      "name": "Rahul Kumar",
+      "roll_no": "MCA2301",
+      "email": "rahul@student.edu",
+      "password": "$2b$10$upv1U6gmy2XTP..ZfAFXSOcPP4ohUMw/7stfLB0MbqDnFSvR2Mb6.",
+      "phone": "9876543210",
+      "college": "Dept of Computer Applications",
+      "department": "MCA",
+      "pct_10": 88,
+      "pct_12": 82,
+      "ug_cgpa": 8.2,
+      "ug_degree": "B.Sc Computer Science",
+      "year_pass": 2025,
+      "backlogs": 0,
+      "skills": "React, Node.js, SQL",
+      "about": "Enthusiastic developer.",
+      "is_placed": true,
+      "is_active": true
+    },
+    {
+      "id": "s2",
+      "name": "Arjun Singh",
+      "roll_no": "MCA2303",
+      "email": "arjun@student.edu",
+      "password": "$2b$10$xjU6RzYXTJDw9vGv45tOi.Trtat6e30Po7rAY6gfN357IkrMt1tx6",
+      "phone": "9876543212",
+      "college": "Dept of Computer Applications",
+      "department": "MCA",
+      "pct_10": 72,
+      "pct_12": 68,
+      "ug_cgpa": 6.9,
+      "ug_degree": "B.Sc Mathematics",
+      "year_pass": 2025,
+      "backlogs": 1,
+      "skills": "Python, Java",
+      "about": "Passionate about coding.",
+      "is_placed": false,
+      "is_active": true
+    },
+    {
+      "name": "Tarun Kumar",
+      "email": "tarun@gmail.com",
+      "roll_no": "24PO1267",
+      "password": "$2b$10$UMCKQSWz1NRomKmzzlExDuRQ5fpqVj.hWMWxKpeBGseBZEdjHV/Lm",
+      "ug_cgpa": 9,
+      "pct_10": 95,
+      "pct_12": 93,
+      "backlogs": 0,
+      "college": "Presidency",
+      "department": "MCA",
+      "ug_degree": "BCA",
+      "year_pass": 2023,
+      "phone": "9223034718",
+      "skills": "Java,python,SQL",
+      "about": "my name is Tarun i have strong intrest in web developing",
+      "id": "s1776952123657",
+      "is_placed": true,
+      "is_active": true
+    },
+    {
+      "name": "Adarsh ",
+      "email": "adarsh@gmail.com",
+      "roll_no": "24PO1219",
+      "password": "$2b$10$5Tzx80nGQ5OCbiUm7L/9lOZqeeGjsKC/1CkNvHD8aStCrnTIOeJAC",
+      "ug_cgpa": 92,
+      "pct_10": 95,
+      "pct_12": 94,
+      "backlogs": 0,
+      "college": "Dept of Computer Applications",
+      "department": "MCA",
+      "ug_degree": "MCA",
+      "year_pass": 2025,
+      "phone": "9220343178",
+      "skills": "React ,Python,Jave,SQL",
+      "about": "My name is adarsh am intrested in Data analyst",
+      "id": "s1776953427208",
+      "is_placed": true,
+      "is_active": true
+    },
+    {
+      "name": "Tarun",
+      "email": "tarun11@gmail.com",
+      "roll_no": "24P0127",
+      "password": "$2b$10$sO0rcT/U9KDDr2PPG9eMNOqt8oFaCNIEWMkSr6gPJbOPTeuTRIZYu",
+      "ug_cgpa": 90,
+      "pct_10": 0,
+      "pct_12": 0,
+      "backlogs": 0,
+      "college": "Dept of Computer Applications",
+      "department": "MCA",
+      "ug_degree": "MCA",
+      "year_pass": 2025,
+      "phone": "9112034197",
+      "skills": "",
+      "about": "",
+      "id": "s1780588714693",
+      "is_placed": false,
+      "is_active": true
+    },
+    {
+      "name": "Ravi@gmail.com",
+      "email": "Ravi@gmail.com",
+      "roll_no": "241212",
+      "password": "$2b$10$6Chg2ZqkSd7WPxpxmWO.quZX4clqzQvne8FDp2z.luu5lLasVQ4zy",
+      "ug_cgpa": 8.5,
+      "pct_10": 90,
+      "pct_12": 93,
+      "backlogs": 0,
+      "college": "Dept of Computer Applications",
+      "department": "MCA",
+      "ug_degree": "MCA",
+      "year_pass": 2025,
+      "phone": "9112034179",
+      "skills": "Python, Power BI, SQL, Excel",
+      "about": "I am Ravikumar . My goal is to become a Data Analyst",
+      "id": "s1784725106039",
+      "is_placed": true,
+      "is_active": true
+    }
+  ],
+  "companies": [
+    {
+      "id": "c1",
+      "name": "TCS",
+      "role": "System Engineer",
+      "package": "3.5 LPA",
+      "min_cgpa": 9,
+      "min_pct_10": 60,
+      "min_pct_12": 60,
+      "allow_backlog": false,
+      "drive_date": "2025-05-15",
+      "location": "Chennai",
+      "job_type": "Full Time",
+      "status": "active",
+      "color": "#0d1b3e",
+      "letter": "T"
+    },
+    {
+      "id": "c2",
+      "name": "Infosys",
+      "role": "Systems Engineer",
+      "package": "3.6 LPA",
+      "min_cgpa": 7.5,
+      "min_pct_10": 65,
+      "min_pct_12": 65,
+      "allow_backlog": false,
+      "drive_date": "2025-05-20",
+      "location": "Bangalore",
+      "job_type": "Full Time",
+      "status": "active",
+      "color": "#007cc3",
+      "letter": "I"
+    },
+    {
+      "id": "c3",
+      "name": "Wipro",
+      "role": "Project Engineer",
+      "package": "3.5 LPA",
+      "min_cgpa": 6,
+      "min_pct_10": 60,
+      "min_pct_12": 60,
+      "allow_backlog": true,
+      "drive_date": "2025-05-25",
+      "location": "Hyderabad",
+      "job_type": "Full Time",
+      "status": "active",
+      "color": "#2e3192",
+      "letter": "W"
+    },
+    {
+      "id": "c4",
+      "name": "Cognizant",
+      "role": "Programmer Analyst",
+      "package": "4.0 LPA",
+      "min_cgpa": 7,
+      "min_pct_10": 70,
+      "min_pct_12": 65,
+      "allow_backlog": false,
+      "drive_date": "2025-06-01",
+      "location": "Chennai",
+      "job_type": "Full Time",
+      "status": "active",
+      "color": "#0033a0",
+      "letter": "C"
+    },
+    {
+      "id": "c1776950246747",
+      "name": "Contrex",
+      "role": "Data Analyst",
+      "package": "5.5  LPA",
+      "min_cgpa": 7.5,
+      "min_pct_10": 60,
+      "min_pct_12": 60,
+      "allow_backlog": false,
+      "drive_date": "2026-04-23",
+      "location": "Mumbai",
+      "job_type": "Full Time",
+      "status": "active",
+      "color": "#0d1b3e",
+      "letter": "C"
+    },
+    {
+      "id": "c1776958170924",
+      "name": "Google",
+      "role": "Software Engineer Intern",
+      "package": "1.5 Lakhs per month",
+      "min_cgpa": 7.5,
+      "min_pct_10": null,
+      "min_pct_12": null,
+      "allow_backlog": false,
+      "drive_date": "2026-04-23",
+      "location": "Hyderabad",
+      "job_type": "Internship",
+      "status": "active",
+      "color": "#0d1b3e",
+      "letter": "G"
+    },
+    {
+      "id": "c1784222284669",
+      "name": "HCL",
+      "role": "DATA ANALYST",
+      "package": "5LPA",
+      "min_cgpa": 7.5,
+      "min_pct_10": 60,
+      "min_pct_12": 60,
+      "allow_backlog": false,
+      "drive_date": "2026-07-16",
+      "location": "BANGALORE",
+      "job_type": "Full Time",
+      "status": "active",
+      "color": "#0d1b3e",
+      "letter": "H"
+    },
+    {
+      "id": "c1784724497076",
+      "name": "Bluestar",
+      "role": "Testing",
+      "package": "3 LPA",
+      "min_cgpa": 7,
+      "min_pct_10": 60,
+      "min_pct_12": 60,
+      "allow_backlog": false,
+      "drive_date": "2026-07-22",
+      "location": "Mumbai",
+      "job_type": "Full Time",
+      "status": "active",
+      "color": "#0d1b3e",
+      "letter": "B"
+    }
+  ],
+  "applications": [
+    {
+      "id": "a1776950451825",
+      "student_id": "s1",
+      "company_id": "c2",
+      "status": "Selected",
+      "applied_at": "2026-04-23",
+      "admin_note": "",
+      "decided_at": "2026-04-23T13:22:49.016Z"
+    },
+    {
+      "id": "a1776950461088",
+      "student_id": "s1",
+      "company_id": "c4",
+      "status": "Selected",
+      "applied_at": "2026-04-23",
+      "admin_note": "",
+      "decided_at": "2026-04-23T13:22:54.446Z"
+    },
+    {
+      "id": "a1776952366751",
+      "student_id": "s1776952123657",
+      "company_id": "c3",
+      "status": "Selected",
+      "applied_at": "2026-04-23",
+      "admin_note": "",
+      "decided_at": "2026-04-23T13:55:04.059Z"
+    },
+    {
+      "id": "a1776953581028",
+      "student_id": "s1776953427208",
+      "company_id": "c1776950246747",
+      "status": "Selected",
+      "applied_at": "2026-04-23",
+      "admin_note": "",
+      "decided_at": "2026-04-23T14:14:41.519Z"
+    },
+    {
+      "id": "a1776953594628",
+      "student_id": "s1776953427208",
+      "company_id": "c3",
+      "status": "Selected",
+      "applied_at": "2026-04-23",
+      "admin_note": "",
+      "decided_at": "2026-04-23T14:24:29.519Z"
+    },
+    {
+      "id": "a1781244623065",
+      "student_id": "s1776953427208",
+      "company_id": "c1",
+      "status": "Selected",
+      "applied_at": "2026-06-12",
+      "admin_note": "",
+      "decided_at": "2026-06-12T07:48:46.242Z"
+    },
+    {
+      "id": "a1781245429892",
+      "student_id": "s1776953427208",
+      "company_id": "c2",
+      "status": "Rejected",
+      "applied_at": "2026-06-12",
+      "admin_note": "Better Luck Next Time",
+      "decided_at": "2026-06-15T14:52:21.978Z"
+    },
+    {
+      "id": "a1781250340104",
+      "student_id": "s1776953427208",
+      "company_id": "c1776958170924",
+      "status": "Rejected",
+      "applied_at": "2026-06-12",
+      "admin_note": "",
+      "decided_at": "2026-07-16T17:16:15.597Z"
+    },
+    {
+      "id": "a1781257598509",
+      "student_id": "s1776953427208",
+      "company_id": "c4",
+      "status": "Rejected",
+      "applied_at": "2026-06-12",
+      "admin_note": "",
+      "decided_at": "2026-07-16T17:25:59.979Z"
+    },
+    {
+      "id": "a1784222453526",
+      "student_id": "s1776953427208",
+      "company_id": "c1784222284669",
+      "status": "Selected",
+      "applied_at": "2026-07-16",
+      "admin_note": "GET READY FOR INTERVIEW",
+      "decided_at": "2026-07-16T17:25:21.374Z"
+    },
+    {
+      "id": "a1784725383713",
+      "student_id": "s1784725106039",
+      "company_id": "c1776950246747",
+      "status": "Selected",
+      "applied_at": "2026-07-22",
+      "admin_note": "Your Application received succesfully",
+      "decided_at": "2026-07-22T13:07:26.913Z"
+    },
+    {
+      "id": "a1784802322269",
+      "student_id": "s1784725106039",
+      "company_id": "c1784222284669",
+      "status": "Under Review",
+      "applied_at": "2026-07-23"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "iv1784725696380",
+      "student_id": "s1784725106039",
+      "company_id": "c1776950246747",
+      "date": "2026-07-22",
+      "time": "10:00 AM",
+      "mail_id": "mail1784725696381"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "an1784724599253",
+      "created_at": "2026-07-22T12:49:59.253Z",
+      "is_active": true,
+      "title": "TCS Placement Drive",
+      "body": "",
+      "type": "info"
+    },
+    {
+      "id": "1",
+      "title": "Placement Season 2025 Now Open",
+      "body": "Registration for TCS and Infosys starts next week. Ensure your profile is updated.",
+      "type": "success",
+      "is_active": true,
+      "created_at": "2026-04-23T13:10:31.608Z"
+    },
+    {
+      "id": "2",
+      "title": "Profile Completion Deadline",
+      "body": "Please complete your profiles by Feb 28th to be eligible for upcoming drives.",
+      "type": "warning",
+      "is_active": true,
+      "created_at": "2026-04-23T13:10:31.608Z"
+    },
+    {
+      "id": "3",
+      "title": "Cognizant Drive Scheduled",
+      "body": "Cognizant will be visiting on June 1st for the Programmer Analyst role.",
+      "type": "info",
+      "is_active": true,
+      "created_at": "2026-04-23T13:10:31.608Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "na1784802322269",
+      "role": "admin",
+      "title": "New Application",
+      "message": "Ravi@gmail.com applied for HCL.",
+      "type": "info",
+      "is_read": false,
+      "created_at": "2026-07-23T10:25:22.269Z"
+    },
+    {
+      "id": "n1784802322269",
+      "student_id": "s1784725106039",
+      "title": "Application Sent",
+      "message": "You applied for the DATA ANALYST role at HCL.",
+      "type": "blue",
+      "is_read": false,
+      "created_at": "2026-07-23T10:25:22.269Z"
+    },
+    {
+      "id": "notif1784725696380",
+      "student_id": "s1784725106039",
+      "title": "Interview Scheduled!",
+      "message": "You have an interview with Contrex on 2026-07-22 at 10:00 AM.",
+      "type": "info",
+      "is_read": true,
+      "created_at": "2026-07-22T13:08:16.381Z"
+    },
+    {
+      "id": "notif1784725656893",
+      "student_id": "s1780588714693",
+      "title": "Interview Cancelled",
+      "message": "Your interview with HCL (scheduled for 2026-07-22) has been cancelled.",
+      "type": "warn",
+      "is_read": false,
+      "created_at": "2026-07-22T13:07:36.893Z"
+    },
+    {
+      "id": "n1784725646913",
+      "student_id": "s1784725106039",
+      "title": "🎉 Offer Received!",
+      "message": "Congratulations! You are selected at Contrex",
+      "type": "ok",
+      "is_read": false,
+      "created_at": "2026-07-22T13:07:26.913Z"
+    },
+    {
+      "id": "n1784725383713",
+      "student_id": "s1784725106039",
+      "title": "Application Sent",
+      "message": "You applied for the Data Analyst role at Contrex.",
+      "type": "blue",
+      "is_read": false,
+      "created_at": "2026-07-22T13:03:03.713Z"
+    },
+    {
+      "id": "notif1784724612288",
+      "student_id": "s1776953427208",
+      "title": "Interview Cancelled",
+      "message": "Your interview with HCL (scheduled for 2026-07-16) has been cancelled.",
+      "type": "warn",
+      "is_read": false,
+      "created_at": "2026-07-22T12:50:12.288Z"
+    },
+    {
+      "id": "notif1784724533861",
+      "student_id": "s1780588714693",
+      "title": "Interview Scheduled!",
+      "message": "You have an interview with HCL on 2026-07-22 at 10:00 AM.",
+      "type": "info",
+      "is_read": false,
+      "created_at": "2026-07-22T12:48:53.861Z"
+    }
+  ],
+  "mails": [
+    {
+      "id": "mail1784725696381",
+      "student_id": "s1784725106039",
+      "from": "Placement Cell",
+      "subject": "Interview Call: Contrex",
+      "body": "Dear Ravi@gmail.com,\n\nCongratulations! You have been shortlisted for an interview with Contrex for the Data Analyst position.\n\nSchedule Details:\nDate: 2026-07-22\nTime: 10:00 AM\n\nPlease be prepared and available at the scheduled time.\n\nBest of luck,\nPlacement Cell",
+      "date": "2026-07-22T13:08:16.381Z",
+      "is_read": true
+    },
+    {
+      "id": "mail1784725656893",
+      "student_id": "s1780588714693",
+      "from": "Placement Cell",
+      "subject": "URGENT: Interview Cancelled - HCL",
+      "body": "Dear Tarun,\n\nYour interview with HCL scheduled for 2026-07-22 at 10:00 AM has been cancelled by the administration.\n\nWe apologize for the inconvenience.\n\nBest Regards,\nPlacement Cell",
+      "date": "2026-07-22T13:07:36.893Z",
+      "is_read": false
+    },
+    {
+      "id": "m1784725646913",
+      "student_id": "s1784725106039",
+      "subject": "Congratulations! You are selected at Contrex",
+      "body": "Dear Ravi@gmail.com, We are pleased to inform you that you have been SELECTED for the Data Analyst role at Contrex with a package of 5.5  LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-07-22T13:07:26.913Z",
+      "is_read": true
+    },
+    {
+      "id": "mail1784724612288",
+      "student_id": "s1776953427208",
+      "from": "Placement Cell",
+      "subject": "URGENT: Interview Cancelled - HCL",
+      "body": "Dear Adarsh ,\n\nYour interview with HCL scheduled for 2026-07-16 at 10:00 AM has been cancelled by the administration.\n\nWe apologize for the inconvenience.\n\nBest Regards,\nPlacement Cell",
+      "date": "2026-07-22T12:50:12.288Z",
+      "is_read": true
+    },
+    {
+      "id": "mail1784724533861",
+      "student_id": "s1780588714693",
+      "from": "Placement Cell",
+      "subject": "Interview Call: HCL",
+      "body": "Dear Tarun,\n\nCongratulations! You have been shortlisted for an interview with HCL for the DATA ANALYST position.\n\nSchedule Details:\nDate: 2026-07-22\nTime: 10:00 AM\n\nPlease be prepared and available at the scheduled time.\n\nBest of luck,\nPlacement Cell",
+      "date": "2026-07-22T12:48:53.861Z",
+      "is_read": false
+    },
+    {
+      "id": "mail1784222768686",
+      "student_id": "s1776953427208",
+      "from": "Placement Cell",
+      "subject": "URGENT: Interview Cancelled - TCS",
+      "body": "Dear Adarsh ,\n\nYour interview with TCS scheduled for 2026-04-23 at 10:00 AM has been cancelled by the administration.\n\nWe apologize for the inconvenience.\n\nBest Regards,\nPlacement Cell",
+      "date": "2026-07-16T17:26:08.687Z",
+      "is_read": true
+    },
+    {
+      "id": "m1784222759979",
+      "student_id": "s1776953427208",
+      "subject": "Update on your application for Cognizant",
+      "body": "Dear Adarsh , Thank you for your interest in the Programmer Analyst role at Cognizant. Unfortunately, we will not be moving forward with your application at this time. We wish you the best in your future endeavors.",
+      "from": "Placement Cell",
+      "date": "2026-07-16T17:25:59.980Z",
+      "is_read": true
+    },
+    {
+      "id": "mail1784222741043",
+      "student_id": "s1776953427208",
+      "from": "Placement Cell",
+      "subject": "Interview Call: HCL",
+      "body": "Dear Adarsh ,\n\nCongratulations! You have been shortlisted for an interview with HCL for the DATA ANALYST position.\n\nSchedule Details:\nDate: 2026-07-16\nTime: 10:00 AM\n\nPlease be prepared and available at the scheduled time.\n\nBest of luck,\nPlacement Cell",
+      "date": "2026-07-16T17:25:41.043Z",
+      "is_read": true
+    },
+    {
+      "id": "m1784222721375",
+      "student_id": "s1776953427208",
+      "subject": "Congratulations! You are selected at HCL",
+      "body": "Dear Adarsh , We are pleased to inform you that you have been SELECTED for the DATA ANALYST role at HCL with a package of 5LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-07-16T17:25:21.375Z",
+      "is_read": true
+    },
+    {
+      "id": "m1784222175597",
+      "student_id": "s1776953427208",
+      "subject": "Update on your application for Google",
+      "body": "Dear Adarsh , Thank you for your interest in the Software Engineer Intern role at Google. Unfortunately, we will not be moving forward with your application at this time. We wish you the best in your future endeavors.",
+      "from": "Placement Cell",
+      "date": "2026-07-16T17:16:15.597Z",
+      "is_read": true
+    },
+    {
+      "id": "m1781535141978",
+      "student_id": "s1776953427208",
+      "subject": "Update on your application for Infosys",
+      "body": "Dear Adarsh , Thank you for your interest in the Systems Engineer role at Infosys. Unfortunately, we will not be moving forward with your application at this time. We wish you the best in your future endeavors.",
+      "from": "Placement Cell",
+      "date": "2026-06-15T14:52:21.978Z",
+      "is_read": true
+    },
+    {
+      "id": "m1781250526242",
+      "student_id": "s1776953427208",
+      "subject": "Congratulations! You are selected at TCS",
+      "body": "Dear Adarsh , We are pleased to inform you that you have been SELECTED for the System Engineer role at TCS with a package of 3.5 LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-06-12T07:48:46.242Z",
+      "is_read": true
+    },
+    {
+      "id": "mail1776957180419",
+      "student_id": "s1776953427208",
+      "from": "Placement Cell",
+      "subject": "Interview Call: TCS",
+      "body": "Dear Adarsh ,\n\nCongratulations! You have been shortlisted for an interview with TCS for the System Engineer position.\n\nSchedule Details:\nDate: 2026-04-23\nTime: 10:00 AM\n\nPlease be prepared and available at the scheduled time.\n\nBest of luck,\nPlacement Cell",
+      "date": "2026-04-23T15:13:00.419Z",
+      "is_read": true
+    },
+    {
+      "id": "m1776954269519",
+      "student_id": "s1776953427208",
+      "subject": "Congratulations! You are selected at Wipro",
+      "body": "Dear Adarsh , We are pleased to inform you that you have been SELECTED for the Project Engineer role at Wipro with a package of 3.5 LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-04-23T14:24:29.519Z",
+      "is_read": true
+    },
+    {
+      "id": "m1776953681519",
+      "student_id": "s1776953427208",
+      "subject": "Congratulations! You are selected at Contrex",
+      "body": "Dear Adarsh , We are pleased to inform you that you have been SELECTED for the Data Analyst role at Contrex with a package of 5.5  LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-04-23T14:14:41.519Z",
+      "is_read": true
+    },
+    {
+      "id": "m1776952504059",
+      "student_id": "s1776952123657",
+      "subject": "Congratulations! You are selected at Wipro",
+      "body": "Dear Tarun Kumar, We are pleased to inform you that you have been SELECTED for the Project Engineer role at Wipro with a package of 3.5 LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-04-23T13:55:04.059Z",
+      "is_read": true
+    },
+    {
+      "id": "m1776950574446",
+      "student_id": "s1",
+      "subject": "Congratulations! You are selected at Cognizant",
+      "body": "Dear Rahul Kumar, We are pleased to inform you that you have been SELECTED for the Programmer Analyst role at Cognizant with a package of 4.0 LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-04-23T13:22:54.446Z",
+      "is_read": true
+    },
+    {
+      "id": "m1776950569016",
+      "student_id": "s1",
+      "subject": "Congratulations! You are selected at Infosys",
+      "body": "Dear Rahul Kumar, We are pleased to inform you that you have been SELECTED for the Systems Engineer role at Infosys with a package of 3.6 LPA. Please check the portal for next steps.",
+      "from": "Placement Cell",
+      "date": "2026-04-23T13:22:49.016Z",
+      "is_read": true
+    }
+  ]
+}
